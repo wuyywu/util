@@ -15,7 +15,7 @@ public class StringUtils {
      * @param str
      * @return
      */
-    public boolean isEmpty(Object str){
+    public static boolean isEmpty(Object str){
         return str == null || "".equals(str);
     }
 
@@ -25,7 +25,7 @@ public class StringUtils {
      * @param str
      * @return
      */
-    public boolean isNotEmpty(Object str) {
+    public static boolean isNotEmpty(Object str) {
         return !isEmpty(str);
     }
 }
