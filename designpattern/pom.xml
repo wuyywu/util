@@ -11,5 +11,13 @@
 
     <artifactId>designpattern</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.github</groupId>
+            <artifactId>commonutils</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
