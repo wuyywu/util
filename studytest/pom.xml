@@ -17,9 +17,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>3rd-party.com.oracle</groupId>
+            <groupId>com.hundsun.fund.ets</groupId>
             <artifactId>jolt</artifactId>
-            <!--<version>1.0.0</version>-->
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
@@ -65,16 +65,5 @@
 
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+
 </project>
