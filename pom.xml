@@ -19,6 +19,7 @@
         <module>commonutils</module>
         <module>designpattern</module>
         <module>springtest</module>
+        <module>studytest</module>
     </modules>
 
     <dependencyManagement>
