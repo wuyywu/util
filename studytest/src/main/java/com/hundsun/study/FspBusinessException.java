@@ -1,14 +1,12 @@
 package com.hundsun.study;
 
-import com.hundsun.jrescloud.common.exception.BaseBizException;
-
 /**
  * 支付结算的业务异常
  * Created by IntelliJ IDEA.
  * User: GongQi
  * Date: 2018/1/16
  */
-public class FspBusinessException extends BaseBizException {
+public class FspBusinessException extends RuntimeException {
 
     private static final long serialVersionUID = 1L;
     /**
@@ -19,7 +17,6 @@ public class FspBusinessException extends BaseBizException {
 
 
     public FspBusinessException(String errorCode){
-        super(66666);
         this.errorCode=errorCode;
     }
 
