@@ -14,8 +14,6 @@
     <packaging>jar</packaging>
 
     <name>commonutils</name>
-    <description></description>
-
 
 
     <properties>
@@ -36,6 +34,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 
     <build>
         <plugins>
