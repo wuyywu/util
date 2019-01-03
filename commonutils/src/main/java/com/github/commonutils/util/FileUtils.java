@@ -6,5 +6,5 @@ package com.github.commonutils.util;
  * @author wuyun
  * @date 2018/10/23 20:15
  */
-public class FileUtil {
+public class FileUtils {
 }

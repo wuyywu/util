@@ -9,7 +9,7 @@ import java.nio.ByteOrder;
  * @author wuyun
  * @date 2018/10/25 18:54
  */
-public class HashUtil {
+public class HashUtils {
 
     /**
      * MurmurHash算法：高运算性能，低碰撞率
