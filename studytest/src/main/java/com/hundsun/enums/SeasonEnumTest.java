@@ -21,7 +21,9 @@ public class SeasonEnumTest {
 
         System.err.println(seasonEnum);
 
-
+        SeasonEnum seasonEnuma = SeasonEnum.valueOf("SPRING");
+        SeasonEnum.values();
+        System.out.println(seasonEnuma);
     }
 
     public void judge(SeasonEnum s)
