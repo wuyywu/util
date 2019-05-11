@@ -45,11 +45,11 @@ public class JdbcTest {
     private void oracle() throws ClassNotFoundException, SQLException {
         Class.forName("oracle.jdbc.driver.OracleDriver");
 
-        String url = "jdbc:oracle:thin:@10.20.35.214:1521:ora11g";
+        String url = "jdbc:oracle:thin:@192.168.76.173:1521:db2";
 
-        Connection connection = DriverManager.getConnection(url, "logminer", "LOGMINER");
+        Connection connection = DriverManager.getConnection(url, "jy", "Caifu123");
 
-        String sql = "select * from tc_tbusinpermission where c_permission_state = '0'";
+        String sql = "select * from tc_taccorequest";
         PreparedStatement stmt = connection.prepareStatement(sql);
         ResultSet rs = stmt.executeQuery(sql);
         while (rs.next()) {
