@@ -18,9 +18,6 @@ import java.util.Map;
  */
 public class SqlUtils {
 
-    public SqlUtils() {
-    }
-
     public static String formatSql(String sql, Object parameterObject, List<ParameterMapping> parameterMappingList) {
         if (sql != null && sql.length() != 0) {
             sql = beautifySql(sql);
