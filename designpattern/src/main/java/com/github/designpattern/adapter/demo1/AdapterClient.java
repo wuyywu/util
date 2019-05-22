@@ -1,4 +1,4 @@
-package com.github.designpattern.adapter;
+package com.github.designpattern.adapter.demo1;
 
 /**
  * 适配器客户端

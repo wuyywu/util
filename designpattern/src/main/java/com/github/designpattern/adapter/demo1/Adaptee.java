@@ -1,4 +1,4 @@
-package com.github.designpattern.adapter;
+package com.github.designpattern.adapter.demo1;
 
 /**
  * 需要适配的类

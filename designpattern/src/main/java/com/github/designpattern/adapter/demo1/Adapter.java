@@ -1,4 +1,4 @@
-package com.github.designpattern.adapter;
+package com.github.designpattern.adapter.demo1;
 
 /**
  * 适配器类，通过在内部包装一个Adaptee对象，把原接口转换成目标接口
@@ -9,6 +9,7 @@ package com.github.designpattern.adapter;
 public class Adapter extends Target {
 
     private Adaptee adaptee = new Adaptee();
+
     @Override
     public void request() {
         adaptee.specificRequest();

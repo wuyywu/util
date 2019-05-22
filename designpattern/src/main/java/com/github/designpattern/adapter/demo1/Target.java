@@ -1,4 +1,4 @@
-package com.github.designpattern.adapter;
+package com.github.designpattern.adapter.demo1;
 
 /**
  * 客户所期待的接口
