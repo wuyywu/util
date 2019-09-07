@@ -34,7 +34,7 @@ public class StringTest {
 //        } catch (UnsupportedEncodingException e) {
 //            e.printStackTrace();
 //        }
-
+//        stringTest.test1();
         String con1 = stringTest.appendZeroToFixLength("-1.00", "GBK", 16, 2, "0");
         String content =      null;
         content = content.replaceAll("-","");
@@ -43,6 +43,13 @@ public class StringTest {
         System.out.println(con1);
         System.out.println(content);
     }
+
+
+/*    public void test1(){
+        String[] array = new String[];
+        array[0] = "1";
+        System.out.println(array[0]);
+    }*/
 
     private String appendZeroToFixLength(String content, String charSet, long fixLength, long precision,String appendChar) {
         long addByte = 0L;
